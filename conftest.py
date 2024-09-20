@@ -1,12 +1,9 @@
 from unittest.mock import Mock
 
 import pytest
-from typing import List
 
 from data import DataBuns, DataIng
-from praktikum.bun import Bun
 from praktikum.burger import Burger
-from praktikum.ingredient import Ingredient
 from praktikum.database import Database
 
 @pytest.fixture(scope='function')

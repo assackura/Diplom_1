@@ -1,7 +1,4 @@
-import pytest
-
 from data import OtherData, DataIng
-from unittest.mock import Mock
 
 
 class TestBurger:
